@@ -58,7 +58,7 @@ desired_tsv() {
   fetch_raw | jq -r '
     .items[]
     | select((.name // "") != "" and (.image // "") != "")
-    | [.name, .image, ((.replicas // 1) | tonumber | floor)]
+    | [.name, .image, ((.replicas // 1) | if .=="" or .==null then 1 else . end | tonumber | floor)]
     | @tsv'
 }
 
