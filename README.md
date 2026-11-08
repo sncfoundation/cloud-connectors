@@ -9,7 +9,7 @@ A <a href="https://sncfoundation.github.io">Sheet-Native Computing Foundation</a
 
 ---
 
-**Status:** 📝 Unsaved Draft &#183; this project is a proposal. Design notes and contributions are welcome.
+**Status:** 💾 Autosaving &#183; promoted from Unsaved Draft. The local Docker and DigitalOcean backends work and shipped as [v0.1.0](https://github.com/sncfoundation/cloud-connectors/releases/tag/v0.1.0). The [tracking issue #15](https://github.com/sncfoundation/sheeternetes/issues/15) stays open for the clouds still in the queue (GCP Cloud Run, Yandex Serverless Containers, Azure Container Instances).
 
 ## About
 
@@ -71,7 +71,7 @@ SHEET_JSON='{"items":[{"name":"hello-web","image":"nginx:1.25","replicas":2}]}' 
 
 ## Get involved
 
-- 📋 Tracking issue &amp; design: [sncfoundation/sheeternetes#15](https://github.com/sncfoundation/sheeternetes/issues/15)
+- 📋 Tracking issue &amp; design: [sncfoundation/sheeternetes#15](https://github.com/sncfoundation/sheeternetes/issues/15) (open)
 - 🗺️ [SNCF Landscape](https://sncfoundation.github.io/landscape.html)
 - 🧩 [All projects](https://sncfoundation.github.io/projects.html)
 - ⚖️ [Governance &amp; how to contribute](https://github.com/sncfoundation/governance)
